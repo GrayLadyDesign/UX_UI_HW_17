@@ -1,5 +1,5 @@
 body {
-    font-family: 'Amatic SC', sans-serif;
+    font-family:'Amatic SC', cursive;
   }
   
   /* Grid CSS */
@@ -16,7 +16,7 @@ body {
     "featuredProduct CTA"
     ;
   }
-  #featuredProduct {
+  #work {
     grid-area: featuredProduct;
     background-image: url("../images/furniture1.png");
   }
@@ -31,7 +31,7 @@ body {
     cursor: pointer;
   }
   #headline {
-    border-bottom: 5px solid #FF6200;
+    border-bottom: 5px solid #5D768C;
     background-color: rgba(255,255,255,0.8);
     position: absolute;
     right: -50px;
@@ -106,7 +106,7 @@ body {
     height: 25px;
     color: white;
     font-size: 18px;
-    border-bottom: 5px solid #FF6200;
+    border-bottom: 5px solid #5D768C;
   }
   
   @media screen and (min-width: 600px) {
@@ -117,3 +117,66 @@ body {
       margin-left: auto;
     }
   }
+  #navBar {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 5%;
+  }
+  #navBar h1 {
+    width: 25%;
+    font-weight: 500;
+  }
+  #navigation {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #navigation p {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25%;
+  }
+  .icons img {
+    margin: 15px;
+    cursor: pointer;
+  }
+  .highlight {
+    color: #5D786C;
+    font-weight: 700;
+  }
+  
+  /* Typography CSS */
+  
+  h2 {
+    font-size: 60px;
+    margin: 0px 0px;
+    color: #5D768C;
+  }
+  
+  h3 {
+    font-size: 32px;
+    font-weight: 300;
+    margin: 0px 0px;
+  }
+  
+  h4 {
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  
+  
+  #headline p {
+    max-width: 350px;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0px 0px;
+    color: #636364;
+  }
+  
