@@ -1,5 +1,8 @@
-body {
+header {
     font-family:'Amatic SC', cursive;
+  }
+  body {
+    font-family: 'Mohave', sans-serif;
   }
   
   /* Grid CSS */
